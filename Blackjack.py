@@ -12,7 +12,7 @@ class Card():
 class Deck():
     def __init__(self):
         self.cards = [Card(s, v) for s in ("shapde", "heart", "club", "diamond")
-                                for v in ("A", "2", "3", "4", "5", "6", "7", "8", "9", "J", "Q", "K")]
+                                for v in ("A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K")]
 
     def shuffle(self):
         if len(self.cards)>1:
